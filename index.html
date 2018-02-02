@@ -8,59 +8,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <!-- This is the pointer to where the stylesheet hides...1000 folders later-->
+    <!-- This is the pointer to where the stylesheet hides-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header class="myport">    
-        <h1>My Portfolio</h1>
 
-        <ul class="links">
-            <li><a href="about.html"></a></li>
-            <li><a href="contact.html"></a></li>
-            <li><a href="portfolio.html"></a></li>
-        </ul>
-        
-    </header>
 <div>
 
-    <div class="container1">    
+    <img src="assets/images/spiration_light/spiration-light.png" id="bg">
 
-        <section id="main-bio">
+    <div id="header"> 
+            
+        <h1 id="name" class="headerfont">Chris Zoghby</h1>
 
-        <h2>About Me</h2>
-        <hr>
+        <ul id="navbar">
 
-        <img id="bio-image" src="assets/images/Personal Photo.PNG" align="left" alt="Chris Z.">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
-        <p> So today I found an adorable, tiny, little bunny (abbreviated TLB for ease), 
-            barely moving, huddled against a concrete sidewalk guard. This TLB had an issue that I was not
-            disciplined enough to diagnose, but my heart fell for it and I had to take care of it. 
-        </p> <p>
-            There is a wildlife hospital near me, but it's crewed by volunteers and funded through donations;
-            their voicemail said they were maxed out but passed me the number for animal control. 
-        </p> <p>   
-            Enter Jim. Jim lives in my apartment complex and takes care of the multi-generational colony of 
-            feral cats living there. Jim found the TLB, and immediately pledged to take care of it and nurse it 
-            back to health. Jim is my hero and a champion for humanity.
-        </p>
+        </ul>
+                    
+    </div>
 
-        </section>   
+    <div id="mainContent">    
+
+        <h2 class="headerfont">About Me</h2>
+                    
+        <hr class="mainHR">
+
+        <img id="bio-image" src="assets/images/Personal_Photo.PNG" align="left" alt="Chris Z.">
+
+        <p> I exited undergraduate (at the beautiful and excellent College of William and Mary) 
+            with a physics degree and a passion for interdisciplinary studies. I love modeling emergent, and self-organizing,
+            phenomena in nature. Statistical mechanics studies as a whole are all fascinating.
+        </p><br><p>
+            Physics wired my brain for problem solving and I've been recently enjoying applying that to the IT field. 
+            Coding and web development are endlessly deep subjects with incredible power and flexibility in their applications,
+            exactly like my physics degree.  
+        </p><br><p>   
+            Currently, I am attending a coding bootcamp at University of Richmond (it rocks) and working for Starbucks as a 
+            shift supervisor. Free coffee is a mighty useful perk for those late coding nights.
+        </p>   
 
     </div>    
 
-    <div class="contact_pageright">        
+    <div id="contact_pageright">        
 
-            <h2>Connect With Me</h2>
-            <hr>
-            <ul>
-            <li><strong>Email: </strong> <a href="mailto:cgzoghby@gmail.com">cgzoghby@gmail.com</a></li>
-            <li><strong>Github: </strong> <a href="https://github.com/CGZoghby">CGZoghby</a></li>
-            <li><strong>Portfolio: </strong> coming soon</li>
-            </ul>
+        <h2 id="sidebartitle" class="headerfont">Connect With Me</h2>
+                    
+        <hr id="contacthr">
+                    
+        <ul id="contactBar">
+                    
+            <li><a href="https://github.com/CGZoghby"><img src="assets/images/if_github_square_black_107109.png" height="65" width="65"></a></li>
+            <li><a href="https://www.linkedin.com/in/christopherzoghby/"><img src="assets/images/if_linkedin_square_color_107091.png" height="65" width="65"></a></li>
+            <li><a href="https://stackoverflow.com/users/9185333/christopher-zoghby?tab=profile"><img id="stack" src="assets\images\if_overflow_334695.png" height="58" width="58"></li>
+                    
+        </ul>
 
     </div>     
+
+    <div id="footer">
+
+        <small>© Copyright 2018 Christopher Gregory Zoghby</small>
+
+    </div>
 
 </div>
 
