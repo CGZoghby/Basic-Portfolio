@@ -3,7 +3,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   color: #777777;
-  min-width: 1048px;
+  max-width: 970px;
   margin: 0px;
   }
   
@@ -69,7 +69,7 @@ a {
   margin-left: 250px;
   padding: 36px;
   font-size: 28px;
-  width: 12%;
+  width: 20%;
   color: #ffffff;
   background-color: #4aaaa5;
 }
